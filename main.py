@@ -172,7 +172,7 @@ def Calibrate(squareLength,markerLength,CalibFiles) :
             print(f'cant open {f.name}')
             print(Error)
             continue
-    if coners_all and ids_all : res = 1
+    if corners_all and ids_all : res = 1
     return res, message, CHARUCO_BOARD,image_size, corners_all, ids_all
     #################################"]
 
